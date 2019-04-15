@@ -1,8 +1,8 @@
 ---
 description: >-
-  Tevun is a set of scripts intended to make life easier for developers and
-  sysadmins in general. It combines docker, docker-compose and git to automate
-  tasks in your server = )
+  Tevun is just a set of scripts made to run docker-compose projects in remote
+  servers. It combines docker, docker-compose and git to automate tasks in your
+  server = )
 ---
 
 # The Project
