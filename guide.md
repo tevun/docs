@@ -35,7 +35,7 @@ Now we can perform `tevun` in terminal.
 
 Let's configure Tevun on your server. First, let's check the user settings and permissions, and then let's configure Tevun.
 
-#### Users and permissions
+### Users and permissions
 
 {% hint style="info" %}
 if you already have an user with the necessary permissions to run your containers or this is not relevant to your scenario you can just disregard this topic.
@@ -51,7 +51,7 @@ It is important that you avoid using your root user via SSH. It is recommended t
 This command will also add the new user to the docker group and sudoers group
 {% endhint %}
 
-#### Access policy via SSH 
+### Access policy via SSH 
 
 You can use a single Tevun command to configure a less privileged user to access SSH and disable root access by using the command below.
 
