@@ -7,7 +7,7 @@ description: >-
 
 # Tevun
 
-Tevun is a set of scripts intended to make life easier for developers and sysadmins in general.
+[Tevun](https://github.com/tevun/server) is a set of scripts intended to make life easier for developers and sysadmins in general.
 
 It combines docker, docker-compose and git to automate tasks such as uploading containers, configuring reverse proxy, configuring SSL, and more.
 
