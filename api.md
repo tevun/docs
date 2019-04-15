@@ -4,7 +4,7 @@ description: Describes the resources available in Tevun
 
 # API
 
-### setup
+## setup
 
 ```text
 # tevun setup [<user>]
