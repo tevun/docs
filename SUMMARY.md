@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Tevun](README.md)
+* [Introduction](README.md)
 * [Installation](installation.md)
 * [Getting started](getting-started.md)
 * [How it works](how-it-works.md)
