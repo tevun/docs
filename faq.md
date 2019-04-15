@@ -1,12 +1,12 @@
 # FAQ
 
-## Can I become who I want to be?
+## What is reverse proxy and why I need it?
 
-That's a tough question but thankfully, our team is on it. Please bear with us while we're investigating.
+Reverse is proxy is a strategy of redirect the inbound requests to specific resources. Using docker you will need use the same host port to many purposes. In this time you will up a reverse proxy to redirect the domain requests to a specific container network.
 
-## Have you had a chance to answer the previous question?
+## Why Tevun is better then others options?
 
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+Tevun is not better then [Traefik](https://traefik.io) or [CapRover](https://caprover.com). In fact you achieve the same result with several other tools. We continue to maintain Tevun because it is the way we believe it to be simpler for most of the scenarios we deal with. If looks useful to you go on, else let it go.
 
 
 
