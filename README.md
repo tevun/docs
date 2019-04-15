@@ -32,9 +32,7 @@ We recommend this project to people with some experience with terminal, git, lin
 
 ### Follow
 
-- [Telegram](https://t.me/tevun)
-
-- [Twitter](https://twitter.com/tevunapp)
-
+- [Telegram](https://t.me/tevun)  
+- [Twitter](https://twitter.com/tevunapp)  
 - [Site](https://tevun.com)
 
