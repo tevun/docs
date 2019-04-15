@@ -2,7 +2,7 @@
 description: After Tevun is installed and configured in your server we can go ahead
 ---
 
-# Getting Started
+# Getting started
 
 ## Prepare environment
 
