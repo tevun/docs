@@ -1,7 +1,7 @@
 # Table of contents
 
 * [The Project](README.md)
-* [Guide](guide.md)
+* [Getting Started](guide.md)
 * [API](api.md)
 * [FAQ](faq.md)
 
