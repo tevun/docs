@@ -1,5 +1,5 @@
 ---
-description: Simple tutorial to make your server run Tevun
+description: Simple tutorial to make your server run with Tevun
 ---
 
 # Getting Started
@@ -51,5 +51,15 @@ It is important that you avoid using your root user via SSH. It is recommended t
 This command will also add the new user to the docker group and sudoers group
 {% endhint %}
 
+#### Access policy via SSH 
 
+You can use a single Tevun command to configure a less privileged user to access SSH and disable root access by using the command below.
+
+{% hint style="danger" %}
+Just use it if you know what it's doing!
+{% endhint %}
+
+```text
+# tevun ssh <name>
+```
 

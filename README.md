@@ -5,7 +5,7 @@ description: >-
   server = )
 ---
 
-# The Project
+# Tevun
 
 Tevun is a set of scripts intended to make life easier for developers and sysadmins in general.
 
