@@ -81,7 +81,7 @@ After perform this command you can access the your server in port 8110 to see if
 
 Setup command will create 3 containers:
 
-* [nginx-proxy](https://github.com/jwilder/nginx-proxy): a ngix instance to make the reverse proxy and allow we up various containers to the same port
+* [nginx-proxy](https://github.com/jwilder/nginx-proxy): a nginx instance to make the reverse proxy and allow we up various containers to the same port
 * [nginx-letsencrypt](https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion): a listener to docker socket that run LetsEncrypt bot to VIRTUAL\_HOST property of containers environment
 * [tevun](https://github.com/tevun/server/blob/master/.docker/tevun/Dockerfile): nginx server configured to run CGI and communicate with docker of host
 
