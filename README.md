@@ -7,6 +7,15 @@ description: >-
 
 # Tevun
 
+                           ____        ____
+    .___________. ._______.\   \      /   /.__    __. .__   __.
+    |           | |   ____| \   \    /   / |  |  |  | |  \ |  |
+    `---|  |----` |  |__     \   \  /   /  |  |  |  | |   \|  |
+        |  |      |   __|     \   \/   /   |  |  |  | |  . `  |
+        |  |      |  |____     \      /    |  `--'  | |  |\   |
+        |__|      |_______|     \    /      \______/  |__| \__|
+                                 \__/
+
 [Tevun](https://github.com/tevun/server) is a set of scripts intended to make life easier for developers and sysadmins in general.
 
 It combines docker, docker-compose and git to automate tasks such as uploading containers, configuring reverse proxy, configuring SSL, and more.
@@ -20,15 +29,6 @@ That way we can configure the scripts to publish our changes in our stage or pro
 {% hint style="info" %}
 We recommend this project to people with some experience with terminal, git, linux, docker and docker-compose. If you already uses docker-compose in your development environment Tevun can make sense to you ; \)
 {% endhint %}
-
-                           ____        ____
-    .___________. ._______.\   \      /   /.__    __. .__   __.
-    |           | |   ____| \   \    /   / |  |  |  | |  \ |  |
-    `---|  |----` |  |__     \   \  /   /  |  |  |  | |   \|  |
-        |  |      |   __|     \   \/   /   |  |  |  | |  . `  |
-        |  |      |  |____     \      /    |  `--'  | |  |\   |
-        |__|      |_______|     \    /      \______/  |__| \__|
-                                 \__/
 
 ### Follow
 
