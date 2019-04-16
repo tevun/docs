@@ -8,9 +8,10 @@ description: Simple tutorial to make your server run with Tevun
 
 Verify that your server has the following requirements:
 
+* Bash \(echo ${BASH\_VERSION}\): +4.x.x
 * Git \(git --version\): git version +2.10.x  
-* Docker \(docker -v\): Docker version +18.0x.x-ce, build xxxxxxx  
-* Docker Compose \(docker-compose -v\): docker-compose version +1.2x.x, build xxxxxxxxx
+* Docker \(docker -v\): Docker version +18.0x.x-ce
+* Docker Compose \(docker-compose -v\): docker-compose version +1.2x.x
 
 ## 2. Download and install
 
