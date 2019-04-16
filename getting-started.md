@@ -6,6 +6,8 @@ description: After Tevun is installed and configured in your server we can go ah
 
 ## Prepare environment
 
+Once connected to your server, go to the Tevun installation folder \(defaults to `/usr/share/tevun`\) to begin the environment configuration.
+
 Before start the usage you can edit the .env file to configure the properties of your server.Open the .env file with your favorite editor and change the properties to suit your needs.  
 
 ```
