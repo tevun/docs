@@ -47,7 +47,7 @@ if you already have an user with the necessary permissions to run your container
 It is important that you avoid using your root user via SSH. It is recommended that you create an user that is limited in order to be able to access your server via SSH. Since we are dealing with docker, we need to have a local user with the same UID that the images will use. Usually this **UID** is the _1000_. To facilitate this operation you can **optionally** use the command below, where `<name>` is the name you want to assign to the new user.
 
 ```text
-# tevun user <name>
+sudo tevun user <name>
 ```
 
 {% hint style="warning" %}
@@ -63,7 +63,7 @@ Just use it if you know what it's doing!
 {% endhint %}
 
 ```text
-# tevun ssh <name>
+sudo tevun ssh <name>
 ```
 
 ## 3.3. Tevun setup
@@ -71,7 +71,7 @@ Just use it if you know what it's doing!
 To perform the setup use the following command in the terminal, replacing &lt;user&gt; with the name of the user that will be used to manipulate the containers.
 
 ```text
-# tevun setup <user>
+sudo tevun setup <user>
 ```
 
 ![](.gitbook/assets/image%20%284%29.png)
@@ -80,15 +80,17 @@ After perform this command you can access the your server in port 8110 to see if
 
 ![](.gitbook/assets/image%20%282%29.png)
 
-## 3.4. What happens in my server?
+## 3.4. What happened in my server?
 
-Setup command will create 3 containers:
+Setup command created 3 containers to make all stuffs running:
 
 * [nginx-proxy](https://github.com/jwilder/nginx-proxy): a nginx instance to make the reverse proxy and allow we up various containers to the same port
-* [nginx-letsencrypt](https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion): a listener to docker socket that run LetsEncrypt bot to VIRTUAL\_HOST property of containers environment
+* [nginx-letsencrypt](https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion): a listener to docker socket that run [**LetsEncrypt**](https://letsencrypt.org) bot to VIRTUAL\_HOST property of containers environment
 * [tevun](https://github.com/tevun/server/blob/master/.docker/tevun/Dockerfile): nginx server configured to run CGI and communicate with docker of host
 
-> If you are here and is all right you can start creating projects your server!
->
+If you are here and is all right you can start creating projects your server! Go to [Getting Started](getting-started.md) to use the resources.
+
+Check [How it works](how-it-works.md) session to understand how the [Tevun Initiative](https://tevun.com).
+
 > In case you got issues in this process keep in touch. You can open issues in our [repo](https://github.com/tevun/server) or call in [telegram](https://t.me/tevun) = \)
 
