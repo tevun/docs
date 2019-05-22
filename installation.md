@@ -24,9 +24,10 @@ $ ssh root@<server>
 Then create the installation dir, clone repository and create the symlink to use command `tevun` in terminal
 
 ```text
-# mkdir -p /usr/share/tevun
-# git clone https://github.com/tevun/server.git /usr/share/tevun
-# ln -s $(pwd)/tevun.sh /usr/bin/tevun
+mkdir -p /usr/share/tevun && \
+git clone https://github.com/tevun/server.git /usr/share/tevun && \
+cd /usr/share/tevun && \
+ln -s $(pwd)/tevun.sh /usr/bin/tevun
 ```
 
 Now we can perform `tevun` in terminal.
