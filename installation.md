@@ -21,7 +21,7 @@ Access your server using ssh
 $ ssh root@<server>
 ```
 
-Then create the installation dir, clone repository and create the symlink to use command `tevun` in terminal
+Then create the installation dir, clone repository and create the symlink to use command `tevun` in terminal \(copy and paste the four lines in the terminal, read the instructions - _always read what you execute_ - and then press enter\)
 
 ```text
 mkdir -p /usr/share/tevun && \
