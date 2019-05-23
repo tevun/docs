@@ -57,7 +57,7 @@ After having a project created on the server we can use git to publish it and ev
 Clone the host created in your Tevun server:
 
 ```text
-git clone https://<user>@<host>:<port>/<project>/repo <project>
+git clone https://<user>@<host>:<port>/<project>/repo <dir>
 ```
 
 Fetch the setup branch, get setup branch from remote and merge setup branch to your local branch:
@@ -84,5 +84,42 @@ Fetch the setup branch, get setup branch from remote and merge setup branch to y
 git fetch deploy +refs/heads/setup:refs/remotes/deploy/setup && \
 git branch --track setup refs/remotes/deploy/setup && \
 git merge --no-ff deploy/setup --allow-unrelated-histories
+```
+
+### Git issues
+
+If a _**host**_ with https support is not being used, we can use a configuration for `git` to be more flexible with respect to the certificate
+
+```text
+git config http.sslVerify false
+```
+
+### Using a full qualified name with git
+
+The Tevun configuration will not configure a dedicated virtual host for the tevun container, but it is quite easy to do so. Go to the Tevun installation folder and open the file `docker-compose.yml`. Set the tevun container to leave the `environment` property as the image below
+
+![](.gitbook/assets/image%20%2811%29.png)
+
+{% code-tabs %}
+{% code-tabs-item title="docker-compose.yml" %}
+```yaml
+version: '3.7'
+#  ...
+services:
+#  ...
+ tevun:
+#  ...
+  environment:
+    - VIRTUAL_HOST=tevun.mydomain.com
+    - LETSENCRYPT_EMAIL=it@mydomain.com
+    - LETSENCRYPT_HOST=tevun.mydomain.com
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+After update `docker-compose.yml` restart the project
+
+```text
+docker-compose down && docker-compose up -d
 ```
 
