@@ -32,7 +32,7 @@ ln -s $(pwd)/tevun.sh /usr/bin/tevun
 
 Now we can perform `tevun` in terminal.
 
-![Output command &quot;tevun&quot; when we do not pass parameters](.gitbook/assets/image%20%2815%29.png)
+![Output command &quot;tevun&quot; when we do not pass parameters](.gitbook/assets/image%20%2813%29.png)
 
 ## 3. Setting up Tevun
 
@@ -74,11 +74,21 @@ To perform the setup use the following command in the terminal, replacing &lt;us
 sudo tevun setup <user>
 ```
 
-![](.gitbook/assets/image%20%288%29.png)
+![](.gitbook/assets/image%20%2810%29.png)
 
-After perform this command you can access the your server in port 1080 \(the default value\) to see if it works.
+The setup command will ask some stuffs.
 
-![](.gitbook/assets/image%20%282%29.png)
+* Host: used to generate the remote paths
+* HTTP Port: sets the HTTP port for the tevun container outside reverse proxy
+* HTTPS port: HTTPS port used outside proxy
+* SSH port: used to generate the remote paths
+* User ID to be used in project: define the owner of projects
+
+After perform this command you can access the your server in port 1080 \(the default value for HTTP port\) to see if it works.
+
+![Accessing outside reverse proxy using a custom port](.gitbook/assets/image%20%282%29.png)
+
+![Access the default Tevun page through the reverse proxy](.gitbook/assets/image%20%289%29.png)
 
 ## 3.4. What happened in my server?
 

@@ -22,7 +22,7 @@ tevun create site.com html
 
 In this example Tevun will create `site.com` project, initialize a git remote repository, configure `post-receive`, generate a `docker-compose.yml` and show the git remote URL in terminal.
 
-![](.gitbook/assets/image%20%284%29.png)
+![](.gitbook/assets/image%20%285%29.png)
 
 ### **Destroy a project**
 
@@ -46,7 +46,7 @@ tevun register <user>
 
 This is a short hand to http basic auth and the file with permissions is in file `/etc/nginx/.users` of _tevun_ container.
 
-![](.gitbook/assets/image%20%2810%29.png)
+![](.gitbook/assets/image%20%2812%29.png)
 
 ## Using in a workstation
 
@@ -98,7 +98,7 @@ git config http.sslVerify false
 
 The Tevun configuration will not configure a dedicated virtual host for the tevun container, but it is quite easy to do so. Go to the Tevun installation folder and open the file `docker-compose.yml`. Set the tevun container to leave the `environment` property as the image below
 
-![](.gitbook/assets/image%20%2811%29.png)
+![](.gitbook/assets/image%20%2814%29.png)
 
 {% code-tabs %}
 {% code-tabs-item title="docker-compose.yml" %}
