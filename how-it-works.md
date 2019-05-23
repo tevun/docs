@@ -28,7 +28,7 @@ Git hooks are scripts that Git executes before or after events such as: commit, 
 
 A new project in Tevun create a docker-compose project sample that need to be extended without lose some principles.
 
-![](.gitbook/assets/image%20%287%29.png)
+![](.gitbook/assets/image%20%289%29.png)
 
 ## 3. Tevun project logistic
 

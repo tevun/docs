@@ -32,7 +32,7 @@ ln -s $(pwd)/tevun.sh /usr/bin/tevun
 
 Now we can perform `tevun` in terminal.
 
-![Output command &quot;tevun&quot; when we do not pass parameters](.gitbook/assets/image%20%2812%29.png)
+![Output command &quot;tevun&quot; when we do not pass parameters](.gitbook/assets/image%20%2814%29.png)
 
 ## 3. Setting up Tevun
 
@@ -74,7 +74,7 @@ To perform the setup use the following command in the terminal, replacing &lt;us
 sudo tevun setup <user>
 ```
 
-![](.gitbook/assets/image%20%284%29.png)
+![](.gitbook/assets/image%20%288%29.png)
 
 After perform this command you can access the your server in port 8110 to see if it works.
 

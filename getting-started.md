@@ -14,7 +14,7 @@ Before start the usage you can edit the .env file to configure the properties of
 $ nano .env
 ```
 
-![](.gitbook/assets/image%20%2810%29.png)
+![](.gitbook/assets/image%20%2812%29.png)
 
 Make sure you use the appropriate settings
 
@@ -32,7 +32,7 @@ $ tevun create site.com html
 
 In this example Tevun will create `site.com` project, initialize a git remote repository, configure `post-receive`, generate a `docker-compose.yml` and show the git remote URL in terminal.
 
-![](.gitbook/assets/image%20%283%29.png)
+![](.gitbook/assets/image%20%284%29.png)
 
 ## Register users
 
@@ -44,7 +44,7 @@ $ tevun register <user>
 
 This is a short hand to http basic auth and the file with permissions is in file `/etc/nginx/.users` of _tevun_ container.
 
-![](.gitbook/assets/image%20%288%29.png)
+![](.gitbook/assets/image%20%2810%29.png)
 
 ## Starting a new project
 

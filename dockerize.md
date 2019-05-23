@@ -91,11 +91,11 @@ To perform the service php in your docker host.
 
 Dockerize tries to detect which container should be run for each service. When you are in a folder that does not have a container associated with it, your output will be global.
 
-![](.gitbook/assets/image%20%286%29.png)
+![](.gitbook/assets/image%20%287%29.png)
 
 When the current directory is associated with one container the output will be different.
 
-![](.gitbook/assets/image%20%2811%29.png)
+![](.gitbook/assets/image%20%2813%29.png)
 
 ### Detection strategies
 
