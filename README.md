@@ -7,14 +7,7 @@ description: >-
 
 # Introduction
 
-                           ____        ____
-    .___________. ._______.\   \      /   /.__    __. .__   __.
-    |           | |   ____| \   \    /   / |  |  |  | |  \ |  |
-    `---|  |----` |  |__     \   \  /   /  |  |  |  | |   \|  |
-        |  |      |   __|     \   \/   /   |  |  |  | |  . `  |
-        |  |      |  |____     \      /    |  `--'  | |  |\   |
-        |__|      |_______|     \    /      \______/  |__| \__|
-                                 \__/
+![](.gitbook/assets/image%20%2818%29.png)
 
 [Tevun](https://github.com/tevun/server) is a set of scripts intended to make life easier for developers and sysadmins in general.
 

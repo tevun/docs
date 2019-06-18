@@ -95,7 +95,7 @@ Dockerize tries to detect which container should be run for each service. When y
 
 When the current directory is associated with one container the output will be different.
 
-![](.gitbook/assets/image%20%2817%29.png)
+![](.gitbook/assets/image%20%2819%29.png)
 
 ### Detection strategies
 
