@@ -74,7 +74,7 @@ bash ~/.config/tevun/dockerize/configure.sh # or your custom path
 
 ### How to use `Dockerize`
 
-will create a command engine to toggle service commands to run on global images and / or images relative to the project of the folder it is in.
+After add the script to terminal will be created a command engine to toggle service commands to run on "[global images](https://github.com/tevun/dockerize/tree/master/dockerize/environment)" and/or containers relative to the project of the folder it is in.
 
 We currently have the following configured services:
 
